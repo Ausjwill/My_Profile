@@ -1,0 +1,112 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+nav {
+  background-color: #474a48;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 98vw;
+  z-index: 1;
+}
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Acme', sans-serif;
+}
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+}
+#brand .nav-link {
+  color: black;
+}
+#brand .nav-link:hover {
+  color: yellow;
+}
+h1 {
+  font-size: 60pt;
+  font-family: 'Acme', sans-serif;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 98vw;
+  height: 100vh;
+  padding-top: 3em;
+  background: url('https://images.unsplash.com/photo-1583156340160-7867f31285d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80') center 75% no-repeat fixed;
+  background-size: cover;
+}
+.header-tag {
+  text-align: center;
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+}
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 18pt;
+}
+
+
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: black;
+}
+.main {
+  text-align: center;
+}
+#about {
+  margin-top: 50px;
+  padding-top: 100px;
+  width: 80vw;
+  height: 100vh;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 0.4em;
+  box-shadow: 2px 2px 2px black;
+}
+#about-content {
+  width: 40vw;
+  float: right;
+}
+
+#contact {
+  display: block;
+  flex-direction: column;
+  width: 98vw;
+  height: 100vh;
+  background-color: #474a48;
+  padding-top: 200px;
+  color: yellow;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+.contact-links > a {
+  display: block;
+  padding: 50px;
+  color: black
+}
+
+.contact-links a:hover {
+  color: yellow;
+}
